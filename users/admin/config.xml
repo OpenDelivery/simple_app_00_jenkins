@@ -3,7 +3,7 @@
   <fullName>admin</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>5/NvKMCr3+SUh4xAVZ1j2IbMR00WggTCZA5Ip4KCnJlECbozOAjTJsqW4Ak6tTf+</apiToken>
+      <apiToken>YBgOMLyjUCXVdtKjErDzZ39aPSvfUclu2Mn/kOvX446EQRTVOAIZIkyJTN1TUhKJsy3oA2ifjWF015+uEmBNJ8rlPPn0clZUnYhUt0YOCVI=</apiToken>
     </jenkins.security.ApiTokenProperty>
     <hudson.model.MyViewsProperty>
       <views>
@@ -14,6 +14,17 @@
           <filterQueue>false</filterQueue>
           <properties class="hudson.model.View$PropertyList"/>
         </hudson.model.AllView>
+        <au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>mypipleline00111</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+          <selectedJob>CreateTargetEnvironment</selectedJob>
+          <noOfDisplayedBuilds>10</noOfDisplayedBuilds>
+          <buildViewTitle></buildViewTitle>
+          <triggerOnlyLatestJob>false</triggerOnlyLatestJob>
+        </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
       </views>
     </hudson.model.MyViewsProperty>
     <hudson.search.UserSearchProperty>
